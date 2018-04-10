@@ -19,12 +19,15 @@ attr_accessor :path
 
      4.times do
         response = gets.strip
+<<<<<<< HEAD
         list_songs if response == "list songs"
         list_artists if response == "list artists"
         list_genres if response == "list genres"
         list_songs_by_artist if response == "list artist"
         list_songs_by_genre if response == "list genre"
         play_song if response == "play song"
+=======
+>>>>>>> d0cbdb9d2036cf62bb56fcee7dffe8974a21801c
       end
   end
 
@@ -65,6 +68,7 @@ attr_accessor :path
       end
     end
 
+<<<<<<< HEAD
     def play_song
       puts "Which song number would you like to play?"
       song_number = gets.strip
@@ -80,4 +84,10 @@ attr_accessor :path
     end
 
 
+=======
+    def play_song 
+      
+
+    end 
+>>>>>>> d0cbdb9d2036cf62bb56fcee7dffe8974a21801c
 end
